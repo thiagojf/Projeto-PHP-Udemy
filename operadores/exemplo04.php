@@ -14,11 +14,11 @@ echo "<br>";
 var_dump ($a = $b);
 echo "<br>";
 
-/** dois == referese a igualdade de valor */
+/** dois == referese a comparação de valor */
 var_dump ($a == $c);
 echo "<br>";
 
-/** três == referese a igualdade de identidade */
+/** três === referese a comparação de valor e de identidade */
 var_dump ($a === $c);
 echo "<br>";
 
